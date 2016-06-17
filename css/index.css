@@ -46,6 +46,10 @@ html, body {
     background-color: black;
     color: white;
 }
+.req{
+    font-size: 1.2em;
+    font-weight: 300;
+}
 .line {
     width: 100%;
     background-color: #ff1744;
