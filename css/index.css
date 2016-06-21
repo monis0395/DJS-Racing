@@ -11,13 +11,13 @@
 .Orbitron {
     font-family: Orbitron!important;
 }
-nav,nav li {
+nav, nav li {
     height: 84px;
 }
-nav, nav i, nav ul a, .side-nav li a  {
+nav, nav i, nav ul a, .side-nav li a {
     line-height: 84px!important;
 }
-.dropdown-content a{
+.dropdown-content a {
     line-height: 56px!important;
 }
 nav ul a {
@@ -46,7 +46,7 @@ html, body {
     background-color: black;
     color: white;
 }
-.req{
+.req {
     font-size: 1.2em;
     font-weight: 300;
 }
@@ -190,6 +190,10 @@ html, body {
         position: relative;
         top: 20px
     }
+}
+.pic1 img, .pic2 img {
+    max-width: 90%;
+    max-height: 120px;
 }
 .client-logo-style li .pic1, .client-logo-style li .pic2 {
     position: absolute;
