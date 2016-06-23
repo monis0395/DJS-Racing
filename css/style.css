@@ -25,6 +25,10 @@ Slider
   width: 100%;
 }
 
+.page-footer a:hover{
+    text-decoration: underline;
+}
+
 .cd-slider > li {
   position: absolute;
   top: 0;
