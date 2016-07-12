@@ -16,6 +16,20 @@
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <title>DJS Racing(Performance. Power. Reliability)</title>
+    <style media="screen">
+    .parallax {
+        position: static;
+    }
+    blockquote:before {
+        display: block;
+        height: 0;
+        content: "“";
+        margin-left: -.95em;
+        font-family: 'Roboto', sans-serif;;
+        font-size: 400%;
+        color: #999;
+    }
+    </style>
 </head>
 
 <body>
@@ -29,21 +43,21 @@
             <a id="logo-container" href="home.html" class="brand-logo right"><img src="images/logos/djs logo white.png" width="196px" ></a>
 
             <!-- Dropdown Structure -->
-                <ul id="Teams" class="dropdown-content black">
-                    <li><a class="red-text " href="team 2013-14.html">Team 2013-14</a></li>
-                    <li><a class="red-text" href="team 2015-16.html">Team 2015-16</a></li>
-                    <li><a class="red-text" href="team 2016-17.html">Team 2016-17</a></li>
-                </ul>
-                <ul id="nav-mobile" class="side-nav black">
-                    <li class="active"><a class="red-text" href="home.html">Home</a></li>
-                    <li><a class="red-text dropdown-button" href="#!" data-activates="Teams">
-                            Team<i class="material-icons right">arrow_drop_down</i>
-                        </a></li>
-                    <li><a class="red-text" href="sponsorship.html">Sponsorship</a></li>
-                    <li><a class="red-text" href="#">Cars</a></li>
-                    <li><a class="red-text" href="#">About Us</a></li>
-                    <li><a class="red-text" href="#">Contact Us</a></li>
-                </ul>
+            <ul id="Teams" class="dropdown-content black">
+                <li><a class="red-text " href="team 2013-14.html">Team 2013-14</a></li>
+                <li><a class="red-text" href="team 2015-16.html">Team 2015-16</a></li>
+                <li><a class="red-text" href="team 2016-17.html">Team 2016-17</a></li>
+            </ul>
+            <ul id="nav-mobile" class="side-nav black">
+                <li class="active"><a class="red-text" href="home.html">Home</a></li>
+                <li><a class="red-text dropdown-button" href="#!" data-activates="Teams">
+                    Team<i class="material-icons right">arrow_drop_down</i>
+                </a></li>
+                <li><a class="red-text" href="sponsorship.html">Sponsorship</a></li>
+                <li><a class="red-text" href="#">Cars</a></li>
+                <li><a class="red-text" href="#">About Us</a></li>
+                <li><a class="red-text" href="#">Contact Us</a></li>
+            </ul>
         </div>
     </nav>
 
@@ -92,301 +106,180 @@
         </ol>
         <!-- .cd-slider-navigation -->
         <div class="cd-svg-cover" data-step1="M1402,800h-2V0.6c0-0.3,0-0.3,0-0.6h2v294V800z" data-step2="M1400,800H383L770.7,0.6c0.2-0.3,0.5-0.6,0.9-0.6H1400v294V800z" data-step3="M1400,800H0V0.6C0,0.4,0,0.3,0,0h1400v294V800z" data-step4="M615,800H0V0.6C0,0.4,0,0.3,0,0h615L393,312L615,800z"
-            data-step5="M0,800h-2V0.6C-2,0.4-2,0.3-2,0h2v312V800z" data-step6="M-2,800h2L0,0.6C0,0.3,0,0.3,0,0l-2,0v294V800z" data-step7="M0,800h1017L629.3,0.6c-0.2-0.3-0.5-0.6-0.9-0.6L0,0l0,294L0,800z" data-step8="M0,800h1400V0.6c0-0.2,0-0.3,0-0.6L0,0l0,294L0,800z"
-            data-step9="M785,800h615V0.6c0-0.2,0-0.3,0-0.6L785,0l222,312L785,800z" data-step10="M1400,800h2V0.6c0-0.2,0-0.3,0-0.6l-2,0v312V800z">
-            <svg height="100%" width="100%" preserveaspectratio="none" viewbox="0 0 1400 800">
-                <title>SVG cover layer</title>
-                <desc>an animated layer to switch from one slide to the next one</desc>
-                <path id="cd-changing-path" d="M1402,800h-2V0.6c0-0.3,0-0.3,0-0.6h2v294V800z" />
-            </svg>
-        </div>
-        <!-- .cd-svg-cover -->
-    </section>
-    <!-- .cd-slider-wrapper -->
+        data-step5="M0,800h-2V0.6C-2,0.4-2,0.3-2,0h2v312V800z" data-step6="M-2,800h2L0,0.6C0,0.3,0,0.3,0,0l-2,0v294V800z" data-step7="M0,800h1017L629.3,0.6c-0.2-0.3-0.5-0.6-0.9-0.6L0,0l0,294L0,800z" data-step8="M0,800h1400V0.6c0-0.2,0-0.3,0-0.6L0,0l0,294L0,800z"
+        data-step9="M785,800h615V0.6c0-0.2,0-0.3,0-0.6L785,0l222,312L785,800z" data-step10="M1400,800h2V0.6c0-0.2,0-0.3,0-0.6l-2,0v312V800z">
+        <svg height="100%" width="100%" preserveaspectratio="none" viewbox="0 0 1400 800">
+            <title>SVG cover layer</title>
+            <desc>an animated layer to switch from one slide to the next one</desc>
+            <path id="cd-changing-path" d="M1402,800h-2V0.6c0-0.3,0-0.3,0-0.6h2v294V800z" />
+        </svg>
+    </div>
+    <!-- .cd-svg-cover -->
+</section>
+<!-- .cd-slider-wrapper -->
 
-    <div class="margin-height"></div>
+<div class="margin-height"></div>
 
-    <!-- News -->
-    <div class="container ">
-        <div class="row white-text">
-            <h3 class="Orbitron"><b>NEWS</b></h3>
-            <div class="col s12 m6 l4">
-                <div class="card black large">
-                    <div class="card-image">
-                        <span class="date"><b>15 jan</b></span>
-                        <img src="images/R1.jpg">
-                    </div>
-                    <br>
-                    <h6><b>PETRONAS TO REVEAL 2016 CAR</b></h6>
-									<h6 class="red-text">HEADLINES</h6>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        <a href="#" class="grey-text text-darken-1">Show More</a>
-                    </p>
-                    <div class="card-action"></div>
-                </div>
-            </div>
-            <div class="col s12 m6 l4">
-                <div class="card black large">
-                    <div class="card-image">
-                        <span class="date"><b>01 feb aa</b></span>
-                        <img src="images/R4.jpg" class="materialboxed">
-                    </div>
-                    <br>
-                    <h6><b>NEW RED BULL TEAM</b></h6>
-					<h6 class="red-text">FEATURES</h6>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        <a href="#" class="grey-text text-darken-1">Show More</a>
-                    </p>
-                    <div class="card-action"></div>
-                </div>
-            </div>
-            <div class="col s12 m6 l4">
-                <div class="card  black large">
-                    <div class="card-image">
-                        <span class="date"><b>15 jan</b></span>
-                        <img src="images/R3.jpg">
-                    </div>
-                    <br>
-                    <h6><b>PETRONAS TO REVEAL 2016 CAR</b></h6>
-					<h6 class="red-text">HEADLINES</h6>
-                    <p class="grey-text">Lorem ipsum dolor sit amet, elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        <a href="#" class="grey-text text-darken-1">Show More</a>
-                    </p>
-                    <div class="card-action"></div>
-                </div>
-            </div>
+<h1 class="center Orbitron red-text">ABOUT US</h1>
+
+<div class="parallax-container">
+    <div class="parallax"><img src="images/djsracing.jpg" width="1920"></div>
+</div>
+<div class="section black">
+    <div class="row container">
+        <h2 class="header Orbitron red-text center">DJS Racing</h2>
+        <p>
+            DJS Racing is a team of 50 engineering students representing our college at the Formula Student competitions; where we design and manufacture a formula style racecar.
+
+            DJS Racing started back in 2012 with a team of few passionate engineering students coming together to create a racecar with the limited resources they had access to, since then we have grown leaps and bounds.
+
+            We participated in Formula Student Germany 2014, and despite it being our debut season the team members displayed exceptional skills in understanding the concept behind developing a race car.
+
+            Our second vehicle, which was built by team of 50 members participated in Formula Student India 2016 which was held at Buddh International Circuit. The team stood 6th amongst 50 participating teams from all over the country. Our car was exceptionally a well designed car and was acclaimed by the judges who saw a lot of potential and promise in us.
+        </p>
+
+        <h3 class="center Orbitron red-text">Our Mission</h3>
+        <blockquote>
+            <p>
+                To excite and encourage young people to take up a career in engineering
+                and to challenge university students to conceive, design, build, cost,
+                present and compete as a team with a formula style racing car in a series
+                of static and dynamic competitions
+            </p>
+            <footer>— DJS Racing</footer>
+        </blockquote>
+
+        <h3 class="center Orbitron red-text">Learning</h3>
+        <p>
+            As a student, taking part in Formula Student gives you the chance to
+            demonstrate your technical, engineering design, and manufacturing skills.
+            Team members also learn important lessons on team working, time management,
+            project management, budgeting and presentation: all things that any prospective
+            employer will be looking for. As a member of this team, each student goes through
+            a steep learning curve and reaps great benefits of the time and effort he has invested
+            throughout his tenure in the team. A Formula student graduate experiences
+            growth on both professional and personal fronts.
+        </p>
+    </div>
+</div>
+<div class="parallax-container">
+    <div class="parallax"><img src="images/aboutfs.jpg"  width="1920"></div>
+</div>
+
+<div class="container">
+    <h2 class="center Orbitron red-text">Formula Student</h2>
+    <p>
+        Formula Student is an international engineering design competition held
+        by the Society of Automotive Engineers (SAE). The goal is to develop and
+        provide a platform for student engineers to experience, build, and learn.
+        These competitions are amongst the most prestigious student engineering
+        competitions in the world. The competition provides an opportunity for
+        engineering students to build their own ingenious race car.
+    </p>
+    <p>
+        The format of the event is such that it provides an ideal opportunity for
+        the students to demonstrate and improve their capabilities to deliver a
+        complex and integrated product in the demanding environment of a Motorsport
+        competition. As a student, taking part in Formula Student gives us the
+        chance to demonstrate our technical, engineering design, and manufacturing
+        skills. Formula Student graduates also find that the professionalism they
+        gain as practicing engineers means they are well equipped for their future
+        engineering careers.
+    </p>
+    <p>
+        As a member of this team, each student goes through a steep learning curve
+        and reaps great benefits of the time and effort he has invested
+        throughout his tenure in the team. A Formula student graduate
+        experiences growth on both professional and personal fronts.
+    </p>
+</div>
+
+
+
+
+
+<!-- LOGOS -->
+<div class="container">
+    <div class="row white-text">
+        <br>
+        <h2 class="Orbitron red-text center">Sponsors</h2>
+        <div class="col s12">
+            <ul class="client-logo-style">
+                <li>
+                    <a href="" target="_blank">
+                        <div class="pic1"><img src="images/logos/SVKM white.png" height="126"></div>
+                        <div class="pic2"><img src="images/logos/SVKM noback.png" height="126"></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="" target="_blank">
+                        <div class="pic1" style="margin:0"><img src="images/logos/phillip-capital white.png" height="86"></div>
+                        <div class="pic2" style="margin:0"><img src="images/logos/phillip-capital noback.png" height="86"></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="" target="_blank">
+                        <div class="pic1"><img src="images/logos/GIC-Recruitment white.png" height="116"></div>
+                        <div class="pic2"><img src="images/logos/GIC-Recruitment noback.png" height="116"></div>
+                    </a>
+                </li>
+                <li style="position:relative;left:-80px">
+                    <a href="" target="_blank">
+                        <div class="pic1"><img src="images/logos/cadd white.png" height="76"></div>
+                        <div class="pic2"><img src="images/logos/cadd noback.png" height="76"></div>
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
+</div>
 
-    <!-- UPDATES -->
+<!-- Footer -->
+<footer class="page-footer red accent-5 ">
     <div class="container">
-        <div class="row WHITE-text">
-            <h3 class="Orbitron"><b>UPDATES</b></h3>
-            <div class="col s12 m6 l4">
-                <div class="card black medium">
-                    <span class="line bottom grey darken-4">&nbsp;</span>
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <span class="date"><b>15 jan</b></span>
-                        <img class="activator" src="images/R1.jpg">
-                    </div>
-                    <br>
-                    <div class="">
-                        <h6 class="card-title-reveal activator bold">PETRONAS TO REVEAL 2016 CAR</h6>
-                        <h6 class="red-text">HEADLINES</h6>
-                        <p class="grey-text ">Lorem ipsum dolor sit amet, elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            <a class="card-title-reveal activator grey-text text-darken-1">Show More</a>
-                        </p>
-                    </div>
-                    <div class="card-reveal ">
-                        <span class="line top">&nbsp</span>
-                        <span class="card-title grey-text text-darken-4 bold reveal-title">
-							UPDATE TITLE
-							<i class="material-icons right">close</i>
-						    </span>
-                        <br>
-                        <p class="grey-text reveal-content"><span class="letter">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            <!-- <a href="#" class="grey-text text-darken-1">Show More</a> -->
-                        </p>
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col l4 s12 white-text text-lighten-1">
+                <h5 class="white-text footer-heading">Address</h5>
+                <p class="white-text text-darken-1">Plot No.U-15, J.V.P.D. Scheme, Bhaktivedanta Swami Marg, Vile Parle West, Mumbai, Maharashtra 400056
+                </p>
+                <a href="https://goo.gl/maps/SXkBcJzEJbo" class="white-text">Find us on Google Maps</a>
+                <br> Email: support@djracing.in
             </div>
-            <div class="col s12 m6 l4">
-                <div class="card black medium">
-                    <span class="line bottom grey darken-4">&nbsp</span>
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <span class="date"><b>15 jan</b></span>
-                        <img class="activator" src="images/R1.jpg">
-                    </div>
-                    <br>
-                    <div class="">
-                        <h6 class="card-title-reveal activator bold">PETRONAS TO REVEAL 2016 CAR</h6>
-                        <h6 class="red-text">HEADLINES</h6>
-                        <p class="grey-text ">Lorem ipsum dolor sit amet, elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            <a class="card-title-reveal activator grey-text text-darken-1">Show More</a>
-                        </p>
-                    </div>
-                    <div class="card-reveal ">
-                        <span class="line top">&nbsp</span>
-                        <span class="card-title grey-text text-darken-4 bold reveal-title">
-                            UPDATE TITLE
-                            <i class="material-icons right">close</i>
-                            </span>
-                        <br>
-                        <p class="grey-text reveal-content"><span class="letter">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
+            <div class="col offset-l2 l3 s12">
+                <h5 class="white-text footer-heading">Quick Links</h5>
+                <ul>
+                    <li><a class="white-text" href="#!">Sponsors</a></li>
+                    <li><a class="white-text" href="team 2016-17.html">Team 2016-17</a></li>
+                    <li><a class="white-text" href="#!">About Us</a></li>
+                    <li><a class="white-text" href="#!">Contact Us</a></li>
+                </ul>
             </div>
-            <div class="col s12 m6 l4">
-                <div class="card black medium">
-                    <span class="line bottom grey darken-4">&nbsp</span>
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <span class="date"><b>15 jan</b></span>
-                        <img class="activator" src="images/R1.jpg">
-                    </div>
-                    <br>
-                    <div class="">
-                        <h6 class="card-title-reveal activator bold">PETRONAS TO REVEAL 2016 CAR</h6>
-                        <h6 class="red-text">HEADLINES</h6>
-                        <p class="grey-text ">Lorem ipsum dolor sit amet, elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            <a class="card-title-reveal activator grey-text text-darken-1">Show More</a>
-                        </p>
-                    </div>
-                    <div class="card-reveal ">
-                        <span class="line top">&nbsp</span>
-                        <span class="card-title grey-text text-darken-4 bold reveal-title">
-                            UPDATE TITLE
-                            <i class="material-icons right">close</i>
-                            </span>
-                        <br>
-                        <p class="grey-text reveal-content"><span class="letter">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <br>
-
-    <!-- Events -->
-    <div class="container">
-        <div class="row red-text">
-            <h3 class="Orbitron"><b>EVENTS</b></h3>
-            <div class="col s12 m6 l4">
-                <span class="line">&nbsp</span>
-                <div class="content white">
-                    <span class="event-date"><b>15 jan</b></span>
-                    <h5 class="black-text"><b>EVENT TITLE</b></h5>
-                    <br>
-                    <p class="grey-text"><span class="letter">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                        laborum.
-                        <a href="#" class="grey-text text-darken-1">Show More</a>
-                    </p>
-                    <div class="card-action"></div>
-                </div>
-            </div>
-            <div class="col s12 m6 l4">
-                <span class="line">&nbsp</span>
-                <div class="content  white">
-                    <span class="event-date"><b>15 jan</b></span>
-                    <h5 class="black-text"><b>EVENT TITLE</b></h5>
-                    <br>
-                    <p class="grey-text"><span class="letter">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                        laborum.
-                        <a href="#" class="grey-text text-darken-1">Show More</a>
-                    </p>
-                    <div class="card-action"></div>
-                </div>
-            </div>
-            <div class="col s12 m6 l4">
-                <span class="line">&nbsp</span>
-                <div class="content  white">
-                    <span class="event-date"><b>15 jan</b></span>
-                    <h5 class="black-text"><b>EVENT TITLE</b></h5>
-                    <br>
-                    <!-- <div class="card-image"><img src="images/R1.jpg" width="100%"></div> -->
-                    <p class="grey-text"><span class="letter">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                        laborum.
-                        <a href="#" class="grey-text text-darken-1">Show More</a>
-                    </p>
-                    <div class="card-action"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- LOGOS -->
-    <div class="container">
-        <div class="row white-text">
-            <br>
-            <h3 class=" Orbitron red-text"><b>Sponsors </b></h3>
-            <div class="col s12">
-                <ul class="client-logo-style">
-                    <li>
-                        <a href="" target="_blank">
-                            <div class="pic1"><img src="images/logos/SVKM white.png"></div>
-                            <div class="pic2"><img src="images/logos/SVKM noback.png"></div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" target="_blank">
-                            <div class="pic1" style="margin:0"><img src="images/logos/phillip-capital white.png"></div>
-                            <div class="pic2" style="margin:0"><img src="images/logos/phillip-capital noback.png"></div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" target="_blank">
-                            <div class="pic1"><img src="images/logos/GIC-Recruitment white.png"></div>
-                            <div class="pic2"><img src="images/logos/GIC-Recruitment noback.png"></div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" target="_blank">
-                            <div class="pic1"><img src="images/logos/cadd white.png"></div>
-                            <div class="pic2"><img src="images/logos/cadd noback.png"></div>
-                        </a>
-                    </li>
+            <div class="col l3 s12">
+                <h5 class="white-text footer-heading">Connect</h5>
+                <ul>
+                    <li><a class="white-text" href="https://www.facebook.com/DJSRacing/">Facebook</a></li>
+                    <li><a class="white-text" href="#!">Twitter</a></li>
+                    <li><a class="white-text" href="#!">Google +</a></li>
+                    <li><a class="white-text" href="https://www.instagram.com/djs_racing/">Instagram</a></li>
                 </ul>
             </div>
         </div>
+        <div class="col l6">
+        </div>
     </div>
-
-    <!-- Footer -->
-    <footer class="page-footer red accent-5 ">
+    <div class="footer-copyright">
         <div class="container">
-            <div class="row">
-                <div class="col l4 s12 white-text text-lighten-1">
-                    <h5 class="white-text">Address</h5>
-                    <p class="white-text text-darken-1">Plot No.U-15, J.V.P.D. Scheme, Bhaktivedanta Swami Marg, Vile Parle West, Mumbai, Maharashtra 400056
-                    </p>
-                    <a href="https://goo.gl/maps/SXkBcJzEJbo" class="white-text">Find us on Google Maps</a>
-                    <br> Email: support@djracing.in
-                </div>
-                <div class="col offset-l2 l3 s12">
-                    <h5 class="white-text footer-heading">Quick Links</h5>
-                    <ul>
-                        <li><a class="white-text" href="#!">Sponsors</a></li>
-                        <li><a class="white-text" href="team 2016-17.html">Team 2016-17</a></li>
-                        <li><a class="white-text" href="#!">About Us</a></li>
-                        <li><a class="white-text" href="#!">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="col l3 s12">
-                    <h5 class="white-text footer-heading">Connect</h5>
-                    <ul>
-                        <li><a class="white-text" href="https://www.facebook.com/DJSRacing/">Facebook</a></li>
-                        <li><a class="white-text" href="#!">Twitter</a></li>
-                        <li><a class="white-text" href="#!">Google +</a></li>
-                        <li><a class="white-text" href="https://www.instagram.com/djs_racing/">Instagram</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col l6">
-            </div>
+            Made by <a class="orange-text text-lighten-3" href="#!">DJITIANS</a>
         </div>
-        <div class="footer-copyright">
-            <div class="container">
-                Made by <a class="orange-text text-lighten-3" href="#!">DJITIANS</a>
-            </div>
-        </div>
-    </footer>
-    <!--  Scripts-->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <!-- Resource jQuery -->
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
-    <script src="js/snap.svg-min.js"></script>
-    <script src="js/main.js"></script>
+    </div>
+</footer>
+<!--  Scripts-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- Resource jQuery -->
+<script src="js/materialize.min.js"></script>
+<script src="js/init.js"></script>
+<script src="js/snap.svg-min.js"></script>
+<script src="js/main.js"></script>
 </body>
 
 </html>
