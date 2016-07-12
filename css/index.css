@@ -198,7 +198,7 @@ html, body {
 .client-logo-style li .pic1, .client-logo-style li .pic2 {
     position: absolute;
     top: 0;
-    margin-left: 100px;
+    margin-left: 50px;
     cursor: pointer;
 }
 .client-logo-style li .pic2 {
