@@ -8,10 +8,10 @@
             full_width: true
         });
         $('.owl-carousel').owlCarousel({
-            items: 1,
+            items: 2,
             lazyLoad: true,
             loop: true,
-            margin: 10,
+            margin: 50,
             autoHeight: true,
             autoplay: true,
             autoplayTimeout: 5000,

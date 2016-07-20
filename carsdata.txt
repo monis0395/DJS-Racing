@@ -72,16 +72,16 @@ Anti-roll bar.
 
 
 3.Steering
-Carbon fibre steering wheel, Sparco quick release.
+Carbon fiber steering wheel, Sparco quick release.
 Reduced turning radius and Increased cornering ability.
-Carbon fibre tie rods and toe rods.
+Carbon fiber tie rods and toe rods.
 SLS 3D printed steering wheel grip.
 
 
 4.Brakes
 Self made custom rotor.
 Adjustable pedalbox.
-ISR Brake callipers, AP Racing master cylinders .
+ISR Brake callipers, AP Racing master cylinders.
 
 
 5.Engine:
@@ -104,10 +104,6 @@ Custom programmable Performance Electronics PE3 ECU.
 Custom Wiring Harness.
 Electronic Solenoid Shifter with ignition interrupt.
 Data Acquisition System.
-
-
-
-
 
 
 8.Composites / Aero :
